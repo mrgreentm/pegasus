@@ -1,0 +1,60 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 4, 58, 0.234);
+}
+
+.container h1 {
+    text-align: center;
+    padding: 10px 5px 10px 10px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.about {
+    text-align: start;
+    font-style: unset;
+    font-size: 1rem;
+    padding: 15px 10px 15px 10px;
+    background-color: rgba(2, 1, 41, 0.953);
+    color: #ffffff;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 1, 41);
+}
+
+.nav a {
+    margin: 0.5em 1em 0.5em 0.5em;
+    color: #ffffff;
+    transition: padding 0.5s;
+}
+
+.nav a:hover {
+    padding: 10px;
+    transition: padding 0.5s;
+}
+
+.wallpaper {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    background-image: url("/images/pegasus.png");
+    background-position: right;
+    background-size: cover;
+    border: none;
+    transition: ease-in 0.8s;
+}
+
+.wallpaper:hover {
+    background-position: center;
+    transition: ease-in 0.8s;
+}
